@@ -1,0 +1,234 @@
+repo_name: ctavolazzi/dungeon-sheets
+report_id: fcf2a32c115cc9001cc067143071580d
+version: 0.1
+repo_type: Public
+timestamp: '2024-03-15T01:59:57+00:00'
+requested_by: canismarko
+provider: github
+branch: master
+detected_tools_count: 17
+tools:
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/ctavolazzi/dungeon-sheets
+  detection_source: Repo Metadata
+- name: Jinja
+  description: Full featured template engine for Python
+  website_url: https://palletsprojects.com/p/jinja/
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Templating Languages & Extensions
+  image_url: https://img.stackshare.io/service/2303/New_Project__20_.png
+  detection_source_url: https://github.com/ctavolazzi/dungeon-sheets/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Mark Wolfman
+  last_updated_on: 2018-04-23 19:06:15.000000000 Z
+- name: Python
+  description: A clear and powerful object-oriented programming language, comparable
+    to Perl, Ruby, Scheme, or Java.
+  website_url: https://www.python.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/ctavolazzi/dungeon-sheets
+  detection_source: Repo Metadata
+- name: Coveralls
+  description: Track your project's code coverage over time, changes to files, and
+    badge your GitHub repo
+  website_url: https://coveralls.io/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Code Coverage
+  image_url: https://img.stackshare.io/service/680/a43e4a04cb9f778842de43f95db59a14.png
+  detection_source_url: https://github.com/ctavolazzi/dungeon-sheets/blob/master/requirements-tests.txt
+  detection_source: requirements-tests.txt
+  last_updated_by: Mark Wolfman
+  last_updated_on: 2020-04-30 05:02:07.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/ctavolazzi/dungeon-sheets
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/ctavolazzi/dungeon-sheets/blob/master/.github/workflows/python-ci.yml
+  detection_source: ".github/workflows/python-ci.yml"
+  last_updated_by: Christopher Johnstone
+  last_updated_on: 2022-12-08 23:47:45.000000000 Z
+- name: PyPI
+  description: A repository of software for the Python programming language
+  website_url: https://pypi.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Hosted Package Repository
+  image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
+  detection_source_url: https://github.com/ctavolazzi/dungeon-sheets/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Mark Wolfman
+  last_updated_on: 2018-04-01 06:14:58.000000000 Z
+- name: Travis CI
+  description: A hosted continuous integration service for open source and private
+    projects
+  website_url: http://travis-ci.com/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/460/Lu6cGu0z_400x400.png
+  detection_source_url: https://github.com/ctavolazzi/dungeon-sheets/blob/master/.travis.yml
+  detection_source: ".travis.yml"
+  last_updated_by: Mark Wolfman
+  last_updated_on: 2018-10-14 19:07:25.000000000 Z
+- name: flake8
+  description: Tool for style guide enforcement
+  website_url: https://github.com/PyCQA/flake8
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/4838/default_c37162891c64eca7fafe782d9c191e409aae1e93.png
+  detection_source_url: https://github.com/ctavolazzi/dungeon-sheets/blob/master/requirements-tests.txt
+  detection_source: requirements-tests.txt
+  last_updated_by: Mark Wolfman
+  last_updated_on: 2021-04-16 16:10:17.000000000 Z
+- name: pytest
+  description: A full-featured Python testing tool to help you write better programs
+  website_url: http://pytest.org/latest/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/4586/Lu99Qe0Z_400x400.png
+  detection_source_url: https://github.com/ctavolazzi/dungeon-sheets/blob/master/requirements-tests.txt
+  detection_source: requirements-tests.txt
+  last_updated_by: Mark Wolfman
+  last_updated_on: 2020-04-30 04:53:50.000000000 Z
+- name: Sphinx
+  description: Open source full text search server, designed from the ground up with
+    performance, relevance (aka search quality), and integration simplicity in mind
+  website_url: http://sphinxsearch.com/
+  open_source: false
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: Search Engines
+  image_url: https://img.stackshare.io/service/1598/TtqoAo1V.png
+  detection_source_url: https://github.com/ctavolazzi/dungeon-sheets/blob/master/setup.py
+  detection_source: setup.py
+  last_updated_by: mat
+  last_updated_on: 2021-07-22 13:52:05.000000000 Z
+- name: black
+  description: The uncompromising code formatter
+  package_url: https://pypi.org/project/black
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20099/default_029b9bbfb6be2cd34bebeda5b8e1e80a1d22441c.png
+  detection_source_url: https://github.com/ctavolazzi/dungeon-sheets/blob/master/requirements-tests.txt
+  detection_source: requirements-tests.txt
+  last_updated_by: Mark Wolfman
+  last_updated_on: 2021-04-16 16:10:17.000000000 Z
+- name: certifi
+  description: Python package for providing Mozilla's CA Bundle
+  package_url: https://pypi.org/project/certifi
+  version: 2018.1.18
+  license: MPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19849/default_75c38a39b9f0062814489e2ec2cbfca0ca15d9ba.png
+  detection_source_url: https://github.com/ctavolazzi/dungeon-sheets/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Mark Wolfman
+  last_updated_on: 2018-04-01 06:14:58.000000000 Z
+  vulnerabilities:
+  - name: Removal of e-Tugra root certificate
+    cve_id: CVE-2023-37920
+    cve_url: https://github.com/advisories/GHSA-xqr8-7jwr-rhp7
+    detected_date: Jul 26
+    severity: high
+    first_patched: 2023.7.22
+  - name: Certifi removing TrustCor root certificate
+    cve_id: CVE-2022-23491
+    cve_url: https://github.com/advisories/GHSA-43fp-rhv2-5gv8
+    detected_date: Dec 8
+    severity: moderate
+    first_patched: 2022.12.07
+- name: npyscreen
+  description: Writing user interfaces without all that ugly mucking about in hyperspace
+  package_url: https://pypi.org/project/npyscreen
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/ctavolazzi/dungeon-sheets/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Mark Wolfman
+  last_updated_on: 2018-04-23 05:28:39.000000000 Z
+- name: pdfrw
+  description: PDF file reader/writer library
+  package_url: https://pypi.org/project/pdfrw
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20655/default_4658783a4f70e14bc0c2a151840ea9736539842c.png
+  detection_source_url: https://github.com/ctavolazzi/dungeon-sheets/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Mark Wolfman
+  last_updated_on: 2018-10-17 07:53:11.000000000 Z
+- name: pytest-cov
+  description: Pytest plugin for measuring coverage
+  package_url: https://pypi.org/project/pytest-cov
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19958/default_e91a78767854f0fa80aab2f13d1a25b15ca2d278.png
+  detection_source_url: https://github.com/ctavolazzi/dungeon-sheets/blob/master/requirements-tests.txt
+  detection_source: requirements-tests.txt
+  last_updated_by: Mark Wolfman
+  last_updated_on: 2020-04-30 04:53:50.000000000 Z
+- name: reportlab
+  description: The Reportlab Toolkit
+  package_url: https://pypi.org/project/reportlab
+  license: BSD-1-Clause,Artistic-1.0-cl8
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20105/default_2ba12a7662d0c37cf453a179c5f8f0558d760422.png
+  detection_source_url: https://github.com/ctavolazzi/dungeon-sheets/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Mark Wolfman
+  last_updated_on: 2021-07-21 22:18:31.000000000 Z
